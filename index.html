@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #eef5e9;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      background-color: #3da75c;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .login-register {
+      color: #fff;
+    }
+
+    section#news {
+      padding: 50px;
+    }
+
+    footer {
+      background-color: #3da75c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#tariffs">Тарифы</a></li>
+      </ul>
+    </nav>
+    <div class="login-register">
+      <a href="#login">Логин</a> / <a href="#register">Регистрация</a>
+    </div>
+  </header>
+
+  <section id="news">
+    <h2>Последние новости</h2>
+    <article>
+      <h3>Заголовок новости</h3>
+      <p>Текст новости...</p>
+    </article>
+    <article>
+      <h3>Заголовок новости</h3>
+      <p>Текст новости...</p>
+    </article>
+  </section>
+  
+  <section class="main-section">
+    <h1>Это Melko - программа для автоматизации бизнеса</h1>
+    <img src="https://images.unsplash.com/photo-1556741568-055d848f8bfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Фотография" />
+    <p>Позвольте нам упростить вашу работу и повысить оптимальную эффективность вашего бизнеса. Мы предлагаем уникальные инструменты и функции, которые помогут вам управлять клиентской базой данных, автоматизировать процессы заказов и платежей, анализировать данные и многое другое.</p>
+<img src="https://images.unsplash.com/photo-1647427017067-8f33ccbae493?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Фотография" />
+<p>Наша программа Melko разработана с учетом потребностей малого и среднего бизнеса. Она интуитивно понятна, легко настраивается и может быть адаптирована под ваши конкретные требования. Независимо от того, являетесь ли вы владельцем онлайн-магазина, ресторана или предоставляете услуги, Melko поможет вам сэкономить время и ресурсы, что позволит сосредоточиться на развитии вашего бизнеса.</p>
+<img src="https://images.unsplash.com/photo-1653330963134-329a61aedc68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Фотография" />
+<p>Наши клиенты уже оценили преимущества Melko и отмечают значительное повышение производительности и эффективности работы. Присоединяйтесь к ним и дайте вашему бизнесу сильный толчок вперед!</p>
+
+<p>Начните использовать Melko уже сегодня и убедитесь во всех ее преимуществах. Мы предлагаем гибкие тарифные планы, чтобы вы могли выбрать оптимальное решение для своего бизнеса.</p>
+<div class="statistic">
+  <div class="animate__animated animate__bounceIn">
+</div>
+  <span class="count" data-count="100">100</span>
+  <p>Пользователей</p>
+</div>
+<p>Не упускайте возможность упростить свою работу, улучшить обслуживание клиентов и повысить прибыль. Откройте новые горизонты с Melko - вашим надежным партнером в автоматизации бизнеса.</p> </section>
+<canvas id="myChart"></canvas>
+
+<canvas id="myPieChart"></canvas>
+
+  <footer>
+    <h2>Контакты</h2>
+    <p>Адрес: город, улица, номер дома</p>
+    <p>Телефон: +7 123 456 789</p>
+    <p>Email: info@example.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+</body>
+</html>
